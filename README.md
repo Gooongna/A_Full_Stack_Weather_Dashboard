@@ -9,7 +9,7 @@ Create a web-frontend application e.g. with react (or simple HTML) which connect
 - DWD Climate Data Center: Historical hourly station observations of 2m air temperature and humidity for Germany, version
 v006, 2018
 - https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/historical/
-- Considering the demo usage of this application and the large data size, I eventually selected 30 stations from the station
+- Considering the demo usage of this application and the large data size, I selected 30 stations from the station
 overview list (‘TU_Studenwerte_Beschreibung_Station.txt’) which are scatted across the whole Baden-Würtenberg. Moreover,
 not every station in the overview list has corresponding weather dataset, so at the end, 28 station observations are used in this
 app
