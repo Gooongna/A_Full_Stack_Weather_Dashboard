@@ -1,0 +1,38 @@
+{% extends 'layout.html'%} 
+
+{% block title %} Weather Dashboard {% endblock %} 
+
+{% block body%}
+
+<div class="container">
+
+  <h2>Christmas Weather</h2>
+
+  <form action="{{ url_for('dashboard')}}" method="post" autocomplete="off">
+
+	<div class="form-group">
+		<input type="text" class="form-control" placeholder="e.g. Stuttgart" name= 'city' required>
+	</div>
+
+	<div class='input-botton'>
+		<input class="btn btn-light" type="submit" name= 'go-button' value="Go">
+	</div>
+
+  </form>
+
+  <div class="card-title">
+	<p>{{ city }}</p>
+  </div>
+
+  <div class="card-text">
+	<div id='line-chart' style='height: 350px; width: 1000px'></div>
+	<script>
+		var getlineDate = {{ lineDate | tojson | safe}};
+		var getlineData1 = {{ lineData1 | tojson | safe}};
+		var getlineData2 = {{ lineData2 | tojson | safe}};
+		lineChart(getlineDate, getlineData1, getlineData2)
+	</script>
+  </div>
+
+</div>
+{% endblock %}

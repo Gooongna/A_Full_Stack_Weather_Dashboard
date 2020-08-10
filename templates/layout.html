@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Boostrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- ECharts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.8.0/echarts.min.js"></script>
+  
+  <!-- Custom Scripts -->
+  <script type="text/javascript" src="{{ url_for('static', filename = 'chart.js') }}"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+
+  <title>{% block title %}{%endblock %}</title>
+  
+</head>
+
+<body>
+    {% block body %}{% endblock %}
+</body>
+
+</html>

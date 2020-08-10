@@ -1,0 +1,48 @@
+body {
+    background: #f7f9fb;
+}
+
+.container {
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: 50px ;
+    margin-bottom: auto ;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #05386b;
+    margin-bottom: 40px ;
+}
+
+.form-group {
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 500px;
+}
+
+.input-botton {
+    margin-top: 5px ;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 100px;
+}
+
+.btn-light {
+    width: 100px;
+}
+
+.card-title  {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #696969;
+    padding-top: 80px;
+}
+
+.card-text {
+    padding-left: 70px;
+}
