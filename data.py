@@ -71,7 +71,6 @@ class dataCollection:
         return result
 
     def get_christmas(self, input):
-
         """
         Compute the average  daily temperature and humidity for all christmases in the past
         """
