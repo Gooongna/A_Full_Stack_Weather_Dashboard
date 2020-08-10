@@ -59,7 +59,7 @@ zipfile
 - Input: a city name (better in Baden-Württenberg)
 - Output: a temperature/humidity chart with interactive legend
 
-![demo](picture/demo.gif)
+![demo](picture/demo1.gif)
 
 
 
