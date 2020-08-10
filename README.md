@@ -20,10 +20,10 @@ app
 ## Folder Structure
 ```
 +-- QualityMatchAssignment
-    +-- data_load # (one-time execution) load data from ftp to db
+    +-- data_load       # (one-time execution) load data from ftp to db
         +-- data_load.py
         +-- ftp_to_db.py
-    +-- dataset # a folder used to store all dowloaded data
+    +-- dataset         # a folder used to store all dowloaded data
             +-- clean_station_list.csv
             +-- [all dowloaded data]
     +-- static
@@ -31,9 +31,9 @@ app
         +-- style.css
     +-- templates
         +-- dashboard.html
-    +-- app.py # flask app
-    +-- config.py # configuration for db and ftp server connection
-    +-- data.py # query and process data
+    +-- app.py          # flask app
+    +-- config.py       # configuration for db and ftp server connection
+    +-- data.py         # query and process data
 ```
 
 ## Set Up
@@ -47,7 +47,7 @@ ftplib
 pandas
 zipfile
 ```
-**Configure:** update your db connection parameters in config.py
+**Configure:** maintain your db connection parameters in config.py
 
 ## Run
 ```
