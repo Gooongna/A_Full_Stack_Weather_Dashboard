@@ -56,6 +56,7 @@ zipfile
 ```
 
 ## Demo:
+- Landing Page: Weather of Heidelberg
 - Input: a city name (better in Baden-Württenberg)
 - Output: a temperature/humidity chart with interactive legend
 
