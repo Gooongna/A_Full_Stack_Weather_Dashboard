@@ -1,3 +1,4 @@
 # QualityMatchAssignment
 
-![Demo] (test.gif)
+
+![demo](test.gif)
