@@ -55,8 +55,8 @@ zipfile
 2) run web-app: python app.py [postgres password]
 ```
 
-## Web Demo:
-- User Input: a city name (better in Baden-Württenberg)
+## Demo:
+- Input: a city name (better in Baden-Württenberg)
 - Output: a temperature/humidity chart with interactive legend
 
 ![demo](picture/demo.gif)
