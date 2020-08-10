@@ -31,6 +31,7 @@ app
         +-- style.css
     +-- templates
         +-- dashboard.html
+        +-- layout.html
     +-- app.py          # flask app
     +-- config.py       # configuration for db and ftp server connection
     +-- data.py         # query and process data
